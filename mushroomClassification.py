@@ -13,6 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import ConfusionMatrixDisplay,RocCurveDisplay,PrecisionRecallDisplay
 from sklearn.metrics import precision_score, recall_score
 
+##remember to run pip freeze > requirements.txt in terminal to generate requirements.txt!!!
 #%%
 def main():
     st.title("binary classification web") ##

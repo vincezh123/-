@@ -18,3 +18,13 @@ import numpy as np
 #%%
 def main():
     st.title('binary classification web') ##
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()

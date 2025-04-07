@@ -17,4 +17,4 @@ from sklearn.metrics import precision_score, recall_score
 ##remember to run pip freeze > requirements.txt in terminal to generate requirements.txt!!!
 #%%
 def main():
-    st.title("binary classification web") ##
+    st.title('binary classification web') ##

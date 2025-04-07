@@ -5,6 +5,7 @@ import numpy as np
 
 
 #%%
+import sklearn
 from sklearn.svm import SVC   ##Support Vector Modifier是一种支持向量机的分类器模型。它有许多可调节的参数，
 from sklearn.linear_model import LogisticRegression ##罗辑回归
 from sklearn.ensemble import RandomForestClassifier ##随机森林

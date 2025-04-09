@@ -32,7 +32,7 @@ def main():
 
     @st.cache_data(persist=True)  ##use cached output unless argument changed
     def load_data():
-        data=pd.read_csv("/Users/vince/Desktop/机器学习项目/mushroomClass/mushrooms.csv")
+        data=pd.read_csv("mushroomClass/mushrooms.csv")
         label=LabelEncoder() ##
         for col in data.columns:
             data[col]=label.fit_transform(data[col])

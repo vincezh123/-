@@ -18,7 +18,8 @@ from sklearn.metrics import ConfusionMatrixDisplay, RocCurveDisplay, PrecisionRe
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.svm import SVC
-from statsmodels.sandbox.distributions.gof_new import bootstrap
+# import statsmodels.api
+# from statsmodels.sandbox.distributions.gof_new import bootstrap
 
 
 ##remember to run pip freeze > requirements.txt in terminal to generate requirements.txt!!!
